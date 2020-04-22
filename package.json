@@ -1,0 +1,16 @@
+{
+  "name": "vertex-inventory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js && node drive.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "googleapis": "^39.2.0"
+  }
+}
