@@ -8,8 +8,6 @@
 //before running this. Download the csv report of all Vertx inventory. 
 //  rm Available_Inventory.csv inventory.csv inventory.json
 //  mv /Users/nickwatson/Downloads/Inventory.csv /Users/nickwatson/dev/Vertex-Inventory/Inventory.csv 
-//  
-// Save in the Vertx-Inventory directory
 //  csvtojson /Users/nickwatson/dev/Vertex-Inventory/Inventory.csv > inventory.json
 // node index
 //node drive

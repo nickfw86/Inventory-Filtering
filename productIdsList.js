@@ -25,6 +25,8 @@ const productIds = [
   "F1 VTX5016",
   "F1 VTX5022",
   "F1 VTX8800",
+  "F1 VTX1235",
+  "F1 VTX6000"
 ];
 
 module.exports = productIds;
