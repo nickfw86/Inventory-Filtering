@@ -51,7 +51,7 @@ const colorMap = {
 'SMG / SMOKE GREY' : 'SMG',
 'AGY / ASH GREY' : 'AGY',
 'SFG / SPACE FORCE GREY' : 'SFG',
-'IKH / NDIFFERENCE KHAKI' : 'IKH',
+'IKH / INDIFFERENCE KHAKI' : 'IKH',
 'BK / BLACK' : 'BK',
 'TN / TAN' : 'TN'
 }
