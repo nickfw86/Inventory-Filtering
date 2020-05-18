@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "child_process": "^1.0.2",
     "csv-writer": "^1.6.0",
-    "googleapis": "^39.2.0"
+    "googleapis": "^39.2.0",
+    "sys": "0.0.1"
   }
 }
