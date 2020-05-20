@@ -6,9 +6,7 @@
 
 
 //before running this. Download the csv report of all Vertx inventory. 
-//  rm Available_Inventory.csv inventory.csv inventory.json
-//  mv /Users/nickwatson/Downloads/Inventory.csv /Users/nickwatson/dev/Vertex-Inventory/Inventory.csv 
-//  csvtojson /Users/nickwatson/dev/Vertex-Inventory/Inventory.csv > inventory.json
+// node setup (need to create a set up file that runs the remove, move, and csvtoJSON hlpers)
 // node index
 //node drive
 //move available_inventory.csv to https://drive.google.com/drive/folders/1-NBSKG91ZPvN7I6e-kmJC1HKTXsbiPus
