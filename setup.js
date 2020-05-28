@@ -4,6 +4,7 @@ let commands = ["rm Available_Inventory.csv inventory.csv inventory.json",
 "csvtojson /Users/nickwatson/dev/Vertex-Inventory/Inventory.csv > inventory.json" ];
 
 for (let i = 0; i < commands.length; i++){
+    setTimeout(()=>{
 exec(commands[i], (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
@@ -13,6 +14,7 @@ exec(commands[i], (error, stdout, stderr) => {
         console.log(`stderr: ${stderr}`);
         return;
     }
-    console.log(`stdout: ${stdout}`);
+    console.log('exec: '+ commands[i]);
 });
+}, 1000);
 }
